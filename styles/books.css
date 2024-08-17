@@ -30,15 +30,16 @@ body{
     }
 
     .book{
-        max-height: 500px;
-        overflow: auto;
         display: grid;
         grid-template:1fr /1fr 1fr 1fr;
+        grid-auto-rows: 70%;
         padding: 20px;
         gap: 20px;
         background-color: rgb(242, 247, 242);
         border-radius: 10px;
         align-items: center;
+        max-height: 500px;
+        overflow: auto;
 
         & > div{
             height: 95%;
