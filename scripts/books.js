@@ -69,7 +69,7 @@ function addGlobalEventListeners(type, selector, callback) {
 }
 
 function changeCheck(event){
-    if (event.target.src == 'http://127.0.0.1:5500/Images/icons/task1.svg' || event.target.src == 'https://abnsol.github.io/Images/icons/task1.svg'){
+    if (event.target.src == 'http://127.0.0.1:5500/Images/icons/task1.svg' || event.target.src == 'https://abnsol.github.io/Library/Images/icons/task1.svg'){
         event.target.src = '../Images/icons/task2.svg';
     }else{
         event.target.src = '../Images/icons/task1.svg';
